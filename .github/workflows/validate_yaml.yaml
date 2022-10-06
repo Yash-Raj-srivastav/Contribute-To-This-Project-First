@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     path: [ '**.yaml', '**.yml', '**.json' ]
-  pull_requests:
+  pull_request:
     type: [ opened, edited, reopened, synchronize ]
     branches: [ main ]
 
