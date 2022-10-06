@@ -2,7 +2,7 @@ name: Perform Quality check on the repo
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, Quality_check_action ]
     path: [ '**.yaml', '**.yml', '**.json' ]
   pull_request:
     type: [ opened, edited, reopened, synchronize ]
